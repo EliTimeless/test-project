@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-import Footer from "../components/Footer";
 
 export default function SecureProperty() {
   const reviews = [
@@ -50,7 +49,7 @@ export default function SecureProperty() {
 
   return (
     <div>
-      <div className="grid  grid-cols-1 md:grid-cols-2 max-md:gap-20 md:flex-row pb-2 items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 bg-[#f4f8ff]">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-md:gap-20 md:flex-row pb-2 items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 bg-[#f4f8ff]">
         <div className="flex flex-col items-center md:items-start">
           <h2 className="text-[#1855fb] text-2xl">MatAlarm</h2>
           <h1 className="text-center md:text-left text-5xl leading-[68px] md:text-6xl md:leading-[84px] font-medium max-w-xl ">
@@ -71,7 +70,7 @@ export default function SecureProperty() {
           {" "}
           <Image
             src="/images/phone-app.png"
-            alt="Mat logo"
+            alt="phone app"
             width={400}
             height={500}
             className="m-1"

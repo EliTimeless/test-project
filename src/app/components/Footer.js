@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +8,7 @@ export default function Footer() {
     <footer className=" bg-[#101c3f] text-white mt-20">
       <div className="px-2 md:px-16 lg:px-24 xl:px-32 flex flex-col items-center lg:items-start justify-between gap-10 py-10 border-b border-white">
         <div className="flex flex-col items-center md:flex-row md:items-center gap-4 md:gap-6 mb-10 pb-10 w-full">
-          <Link href="/secure" className="flex items-center">
+          <Link href="/SecureProperty" className="flex items-center">
             <Image
               src="/images/Mat-blue.png"
               alt="Mat logo"
